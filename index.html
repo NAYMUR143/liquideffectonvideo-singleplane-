@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>curtains.js | Simple video plane example</title>
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <div id="curtainjs">
+      <div id="canvas"></div>
+      <div class="wrapper">
+        <div class="curtain">
+          <video
+            src="./video/curtainsVideo.mp4"
+            data-sampler="simplePlaneVideoTexture"
+          ></video>
+        </div>
+      </div>
+    </div>
+    <script src="./js/curtains.js"></script>
+    <script src="js/script.js" type="module"></script>
+  </body>
+</html>
